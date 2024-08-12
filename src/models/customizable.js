@@ -11,7 +11,7 @@ const customizableSchema = new mongoose.Schema({
     },
     Sellable: {
         type: Boolean,
-        required: true,
+        required: false,
         default: false,
     },
     price: {
